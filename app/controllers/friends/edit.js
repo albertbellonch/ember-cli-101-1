@@ -28,7 +28,7 @@ export default Ember.Controller.extend({
     },
 
     cancel() {
-      this.transitionToRoute('friends.show', this.get('model'));
+      this.transitionToRoute('friends');
 
       return false;
     }
